@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwäbische Bäckerei Berlin - Kontakt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 font-sans text-stone-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold text-amber-600">Schwäbische Bäckerei</a>
+            <nav class="hidden md:flex items-center space-x-1">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 transition font-medium">Startseite</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 transition font-medium">Über uns</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 transition font-medium">Menü</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 transition font-medium">Galerie</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 transition font-medium">Termin buchen</a>
+                <a href="contacts.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 transition font-medium">Kontakt</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-btn" class="p-2 text-stone-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-stone-200 px-6 py-4 space-y-2">
+            <a href="index.html" class="block hover:bg-amber-50 rounded-lg px-4 py-2">Startseite</a>
+            <a href="about.html" class="block hover:bg-amber-50 rounded-lg px-4 py-2">Über uns</a>
+            <a href="services.html" class="block hover:bg-amber-50 rounded-lg px-4 py-2">Menü</a>
+            <a href="gallery.html" class="block hover:bg-amber-50 rounded-lg px-4 py-2">Galerie</a>
+            <a href="booking.html" class="block hover:bg-amber-50 rounded-lg px-4 py-2">Termin buchen</a>
+            <a href="contacts.html" class="block bg-amber-500 text-white rounded-lg px-4 py-2">Kontakt</a>
+        </div>
+    </header>
+
+    <div class="bg-stone-100 py-4 border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-stone-600">
+            Startseite &gt; <span class="text-stone-900 font-semibold">Kontakt</span>
+        </div>
+    </div>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-amber-600 font-semibold uppercase tracking-wider text-sm">Finden Sie uns</span>
+            <h1 class="text-4xl font-bold mt-2">Kontakt & Standort</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="bg-white p-8 rounded-3xl shadow-xl border border-stone-100 flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold mb-6 text-stone-900">Besuchen Sie uns</h2>
+                    <div class="space-y-6 text-stone-600">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center font-bold flex-shrink-0">📍</div>
+                            <div>
+                                <p class="font-bold text-stone-900">Adresse</p>
+                                <p>Samariterstraße 14, 10247 Berlin, Germany</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center font-bold flex-shrink-0">📞</div>
+                            <div>
+                                <p class="font-bold text-stone-900">Telefon</p>
+                                <p>+49 30 23135012</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center font-bold flex-shrink-0">✉️</div>
+                            <div>
+                                <p class="font-bold text-stone-900">E-Mail</p>
+                                <p>info@schwaebische-baeckerei-berlin.de</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center font-bold flex-shrink-0">⏰</div>
+                            <div>
+                                <p class="font-bold text-stone-900">Öffnungszeiten</p>
+                                <p>Mo-So: 06:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 pt-6 border-t border-stone-100">
+                    <a href="https://www.instagram.com/schwaebische_baeckerei/" target="_blank" class="inline-block bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl font-semibold transition">Instagram besuchen</a>
+                </div>
+            </div>
+
+            <div class="bg-stone-200 rounded-3xl overflow-hidden shadow-xl min-h-[400px]">
+                <iframe class="w-full h-full min-h-[400px] border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.70827299064!2d13.457811!3d52.5158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e357e62a1a7%3A0x6b19a0a012345678!2sSamariterstr.%2014%2C%2010247%20Berlin!5e0!3m2!1sde!2sde!4v1650000000000!5m2!1sde!2sde" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Schwäbische Bäckerei Berlin</h3>
+                <p class="text-sm text-stone-400">Echte schwäbische Backkultur mitten im Berliner Kiez von Friedrichshain.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Kontakt</h3>
+                <p class="text-sm text-stone-400 mb-2">Samariterstraße 14, 10247 Berlin</p>
+                <p class="text-sm text-stone-400 mb-2">Telefon: +49 30 23135012</p>
+                <p class="text-sm text-stone-400">E-Mail: info@schwaebische-baeckerei-berlin.de</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Öffnungszeiten</h3>
+                <p class="text-sm text-stone-400 mb-2">Montag - Sonntag</p>
+                <p class="text-sm text-white font-medium">06:00 - 18:00 Uhr</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-stone-800 text-center text-xs text-stone-500">
+            &copy; 2024 Schwäbische Bäckerei Berlin. Alle Rechte vorbehalten.
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    // Плавная прокрутка
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
